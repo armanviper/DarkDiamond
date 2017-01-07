@@ -198,7 +198,7 @@ function load_config( )
   end
   local config = loadfile ("./data/config.lua")()
   for v,user in pairs(config.sudo_users) do
-    print("Sudo user: " .. user)
+    print("Sudo user: "176176742)
   end
   return config
 end
